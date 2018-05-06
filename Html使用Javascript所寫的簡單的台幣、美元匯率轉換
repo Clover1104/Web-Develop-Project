@@ -1,0 +1,11 @@
+<script>
+  function go() {
+    var usd = document.getElementById("USD").value;
+    var twd = Number(usd / 31) .toFixed(2);
+    alert(usd+"台幣等於"+twd+"美元");
+  }
+</script>
+臺幣：<input type='text' id='USD' size=5 value=5000>
+<button onClick='go()'>
+  幫你換成美金
+  </button>
